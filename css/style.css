@@ -1,0 +1,63 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sinal{
+    margin: 5% 0;
+    display: flex;
+    align-items: center;    
+    background: chartreuse;
+    width: 50vw;
+    height: 60vh;
+    position: relative;
+    padding-left: 13%;
+    
+}
+
+.sinal img{
+    position: absolute;
+    margin: 0;
+    padding: 0;   
+}
+#botoes{
+    margin-left: 10%;
+}
+#verde{
+    width: 10em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: monospace;text-transform: uppercase;font-weight: 600;color: rgb(0, 0, 0);
+    background: green;
+    height: 5em;
+}
+#vermelho{
+    width: 10em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: monospace;text-transform: uppercase;font-weight: 600;color: rgb(0, 0, 0);
+    background: red;
+    height: 5em
+}
+#amarelo{
+    width: 10em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: monospace;text-transform: uppercase;font-weight: 600;color: rgb(0, 0, 0);
+    background: yellow;
+    height: 5em
+}
+#reset{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    cursor: pointer;
+}
